@@ -1,8 +1,12 @@
 <p align="center">
-  <img src="./Neon%20Kodlama%20Çalışma%20Alanı.png"
-       width="100%"
-       alt="Kerem Köse - Developer Banner">
+  <img
+    src="./banner.png"
+    width="100%"
+    alt="Kerem Köse - Developer Banner"
+  />
 </p>
+
+<br>
 
 <br>
 <h1 align="center">Merhaba, ben Kerem Köse!</h1>
