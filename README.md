@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="github-banner.png" width="100%" alt="Kerem Köse - Developer Banner">
+</p>
 # Merhaba, ben Kerem Köse!
 
 ### Android Developer | Kotlin | PHP | Laravel
