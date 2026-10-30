@@ -21,13 +21,12 @@ Okul yönetimi ve öğrenci takibi üzerine geliştirdiğim proje.
 ## GitHub İstatistiklerim
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=keremkose61&show_icons=true&theme=github_dark&hide_border=true" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=keremkose61&layout=compact&theme=github_dark&hide_border=true" />
+  <img src="https://img.shields.io/github/followers/keremkose61?label=Takip%C3%A7iler&style=for-the-badge&logo=github&color=181717" alt="GitHub takipçileri" />
+  <img src="https://img.shields.io/github/stars/keremkose61?affiliations=OWNER&label=Y%C4%B1ld%C4%B1zlar&style=for-the-badge&logo=github&color=181717" alt="GitHub yıldızları" />
+  <img src="https://img.shields.io/badge/Profil-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub profili" />
 </p>
 
-<p align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=keremkose61&theme=github-dark-blue&hide_border=true" />
-</p>
+Projelerimi, depolarımı ve katkılarımı [GitHub profilimden](https://github.com/keremkose61) inceleyebilirsin.
 
 ---
 
