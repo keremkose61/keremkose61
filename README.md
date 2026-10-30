@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/keremkose61/keremkose61/main/Neon%20Kodlama%20%C3%87al%C4%B1%C5%9Fma%20Alan%C4%B1.png" width="100%" alt="Kerem Köse - Geliştirici Banner" />
+  <img src="https://raw.githubusercontent.com/keremkose61/keremkose61/ana/Neon%20Kodlama%20%C3%87al%C4%B1%C5%9Fma%20Alan%C4%B1.png" width="100%" alt="Kerem Köse - Geliştirici Banner" />
 </p>
 
 ---
