@@ -1,34 +1,5 @@
 <p align="center">
-  <img src="banner.png" width="100%" alt="Kerem Köse - Developer Banner">
-</p>
-
-<br>
-
-<br>
-
-<br>
-<h1 align="center">Merhaba, ben Kerem Köse!</h1>
-
-### Android Developer | Kotlin | PHP | Laravel
-
-Türkiye'den bir yazılım geliştiricisiyim. Faydalı uygulamalar geliştirmeyi, yeni teknolojiler öğrenmeyi ve fikirlerimi çalışan projelere dönüştürmeyi seviyorum.
-
----
-
-## Hakkımda
-
-- Android uygulama geliştirme ile ilgileniyorum.
-- Kotlin ile mobil uygulamalar geliştiriyorum.
-- PHP, Laravel ve MySQL ile backend geliştirme alanında ilerliyorum.
-- Yeni teknolojiler öğrenmeye ve kendimi geliştirmeye devam ediyorum.
-- Amacım kullanışlı, modern ve kaliteli yazılımlar üretmek.
-
----
-
-## Teknolojiler ve Araçlar
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=kotlin,java,php,python,cs,html,css,js,laravel,mysql,androidstudio,git,github,vscode&theme=dark" />
+  <img src="https://raw.githubusercontent.com/keremkose61/keremkose61/main/Neon%20Kodlama%20%C3%87al%C4%B1%C5%9Fma%20Alan%C4%B1.png" width="100%" alt="Kerem Köse - Geliştirici Banner" />
 </p>
 
 ---
