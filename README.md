@@ -21,9 +21,7 @@ Okul yönetimi ve öğrenci takibi üzerine geliştirdiğim proje.
 ## GitHub İstatistiklerim
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/keremkose61?label=Takip%C3%A7iler&style=for-the-badge&logo=github&color=181717" alt="GitHub takipçileri" />
-  <img src="https://img.shields.io/github/stars/keremkose61?affiliations=OWNER&label=Y%C4%B1ld%C4%B1zlar&style=for-the-badge&logo=github&color=181717" alt="GitHub yıldızları" />
-  <img src="https://img.shields.io/badge/Profil-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub profili" />
+  <img src="./stats.svg" width="100%" alt="GitHub profil istatistikleri" />
 </p>
 
 Projelerimi, depolarımı ve katkılarımı [GitHub profilimden](https://github.com/keremkose61) inceleyebilirsin.
