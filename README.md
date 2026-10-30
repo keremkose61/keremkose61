@@ -1,10 +1,8 @@
 <p align="center">
-  <img
-    src="./banner.png"
-    width="100%"
-    alt="Kerem Köse - Developer Banner"
-  />
+  <img src="banner.png" width="100%" alt="Kerem Köse - Developer Banner">
 </p>
+
+<br>
 
 <br>
 
