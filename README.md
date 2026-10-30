@@ -1,16 +1,66 @@
-## Hi there 👋
+# Hi, I'm Kerem Köse
 
-<!--
-**keremkose61/keremkose61** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Android Developer | Software Developer
 
-Here are some ideas to get you started:
+I'm a software developer from Türkiye, interested in building useful applications and developing modern software solutions.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I enjoy learning new technologies, solving problems and turning ideas into working projects.
+
+---
+
+## About Me
+
+- Developing projects with Kotlin and PHP
+- Interested in Android application development
+- Exploring backend development with Laravel and MySQL
+- Improving my programming and problem-solving skills
+- Always learning something new
+
+## Technologies & Tools
+
+**Programming Languages**
+- Kotlin
+- PHP
+- JavaScript
+- Python
+- C#
+- HTML5 & CSS3
+
+**Frameworks & Databases**
+- Laravel
+- MySQL
+
+**Development Tools**
+- Android Studio
+- Visual Studio Code
+- Git & GitHub
+
+## Featured Projects
+
+### Soru Bankası
+A web-based question bank project.
+
+- Technology: PHP
+- Repository: [soru-bankasi](https://github.com/keremkose61/soru-bankasi)
+
+### ODİS – Okul Disiplin ve İzleme Sistemi
+A school discipline and monitoring system.
+
+- Technology: JavaScript
+- Repository: [OD-S](https://github.com/keremkose61/OD-S)
+
+## Currently Learning
+
+- Android Development with Kotlin
+- Modern application architecture
+- Backend development
+- Database management
+- Software engineering practices
+
+## Connect With Me
+
+- GitHub: [@keremkose61](https://github.com/keremkose61)
+
+---
+
+*Building, learning and improving every day.*
