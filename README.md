@@ -5,7 +5,7 @@
 </p>
 
 <br>
-# Merhaba, ben Kerem Köse!
+<h1 align="center">Merhaba, ben Kerem Köse!</h1>
 
 ### Android Developer | Kotlin | PHP | Laravel
 
