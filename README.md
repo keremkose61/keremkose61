@@ -1,6 +1,10 @@
 <p align="center">
-  <img src="github-banner.png" width="100%" alt="Kerem Köse - Developer Banner">
+  <img src="./Neon%20Kodlama%20Çalışma%20Alanı.png"
+       width="100%"
+       alt="Kerem Köse - Developer Banner">
 </p>
+
+<br>
 # Merhaba, ben Kerem Köse!
 
 ### Android Developer | Kotlin | PHP | Laravel
