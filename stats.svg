@@ -12,7 +12,7 @@
         <rect width="200" height="112" rx="12" fill="#101820" stroke="#1f6f4a" />
         <rect width="4" height="112" rx="2" fill="#20e58a" />
         <text x="20" y="38" fill="#9aa7b2" font-size="12" font-family="Arial, sans-serif" letter-spacing="1">FOLLOWERS</text>
-        <text x="20" y="82" fill="#20e58a" font-size="34" font-weight="700" font-family="Arial, sans-serif">0</text>
+        <text x="20" y="82" fill="#20e58a" font-size="34" font-weight="700" font-family="Arial, sans-serif">1</text>
       </g>
     
       <g transform="translate(482, 18)">
@@ -22,5 +22,5 @@
         <text x="20" y="82" fill="#20e58a" font-size="34" font-weight="700" font-family="Arial, sans-serif">0</text>
       </g>
     
-  <text x="350" y="150" text-anchor="middle" fill="#7d8590" font-size="9" font-family="Arial, sans-serif">Updated 2026-10-30 17:55 UTC · github.com/keremkose61</text>
+  <text x="350" y="150" text-anchor="middle" fill="#7d8590" font-size="9" font-family="Arial, sans-serif">Updated 2026-10-31 05:39 UTC · github.com/keremkose61</text>
 </svg>
