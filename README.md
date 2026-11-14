@@ -16,6 +16,19 @@ Okul yönetimi ve öğrenci takibi üzerine geliştirdiğim proje.
 
 [Projeyi incele](https://github.com/keremkose61/OD-S)
 
+### PPL ANTREMAN
+Kotlin ile geliştirilen Android tabanlı kişisel antrenman ve fitness takip uygulaması.
+
+- Antrenman programları ve egzersiz takibi
+- Beslenme rehberi ve fitness araçları
+- İstatistik ve ilerleme takibi
+- Mimi AI Asistanı
+- Bildirim ve motivasyon sistemi
+
+**Teknolojiler:** Kotlin · Android · XML · Gradle
+
+[Projeyi incele](https://github.com/keremkose61/antrenman)
+
 ---
 
 ## GitHub İstatistiklerim
