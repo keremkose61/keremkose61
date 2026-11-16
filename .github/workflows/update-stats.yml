@@ -3,10 +3,15 @@ name: Update GitHub Profile Stats
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 0 * * *"
+    # Run every 6 hours.
+    - cron: "17 */6 * * *"
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-profile-stats
+  cancel-in-progress: false
 
 jobs:
   update-stats:
@@ -23,7 +28,9 @@ jobs:
           import json
           import os
           import urllib.request
-          from datetime import datetime, timezone
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          from xml.sax.saxutils import escape
 
           username = "keremkose61"
           token = os.environ["GH_TOKEN"]
@@ -35,22 +42,46 @@ jobs:
                       "Accept": "application/vnd.github+json",
                       "Authorization": f"Bearer {token}",
                       "X-GitHub-Api-Version": "2022-11-28",
+                      "User-Agent": "keremkose61-profile-stats",
                   },
               )
-              with urllib.request.urlopen(request) as response:
+              with urllib.request.urlopen(request, timeout=30) as response:
                   return json.loads(response.read().decode("utf-8"))
 
           user = github_get(f"https://api.github.com/users/{username}")
-          repos = github_get(
-              f"https://api.github.com/users/{username}/repos?per_page=100&type=owner"
+
+          # Read every page so star totals remain correct for accounts with
+          # more than 100 public repositories.
+          repos = []
+          page = 1
+          while True:
+              batch = github_get(
+                  f"https://api.github.com/users/{username}/repos"
+                  f"?per_page=100&type=owner&sort=updated&page={page}"
+              )
+              if not batch:
+                  break
+              repos.extend(batch)
+              if len(batch) < 100:
+                  break
+              page += 1
+
+          # Match GitHub's profile repository count and count stars on
+          # non-fork repositories owned by this account.
+          public_repos = int(user.get("public_repos", 0))
+          stars = sum(
+              int(repo.get("stargazers_count", 0))
+              for repo in repos
+              if not repo.get("fork", False) and not repo.get("private", False)
           )
-          public_repos = [repo for repo in repos if not repo.get("fork", False)]
-          stars = sum(repo.get("stargazers_count", 0) for repo in public_repos)
-          updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+          followers = int(user.get("followers", 0))
+          updated = datetime.now(ZoneInfo("Europe/Istanbul")).strftime(
+              "%Y-%m-%d %H:%M TRT"
+          )
 
           metrics = [
-              ("PUBLIC REPOSITORIES", str(user.get("public_repos", 0))),
-              ("FOLLOWERS", str(user.get("followers", 0))),
+              ("PUBLIC REPOSITORIES", str(public_repos)),
+              ("FOLLOWERS", str(followers)),
               ("STARS EARNED", str(stars)),
           ]
 
@@ -61,8 +92,8 @@ jobs:
                 <g transform="translate({x}, 18)">
                   <rect width="200" height="112" rx="12" fill="#101820" stroke="#1f6f4a" />
                   <rect width="4" height="112" rx="2" fill="#20e58a" />
-                  <text x="20" y="38" fill="#9aa7b2" font-size="12" font-family="Arial, sans-serif" letter-spacing="1">{label}</text>
-                  <text x="20" y="82" fill="#20e58a" font-size="34" font-weight="700" font-family="Arial, sans-serif">{value}</text>
+                  <text x="20" y="38" fill="#9aa7b2" font-size="12" font-family="Arial, sans-serif" letter-spacing="1">{escape(label)}</text>
+                  <text x="20" y="82" fill="#20e58a" font-size="34" font-weight="700" font-family="Arial, sans-serif">{escape(value)}</text>
                 </g>
               """)
 
