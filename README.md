@@ -57,9 +57,6 @@ Projelerimi, depolarımı ve katkılarımı [GitHub profilimden](https://github.
   <a href="https://github.com/keremkose61">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://instagram.com/kerem_mobil_gelistirici">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
 </p>
 
 ---
